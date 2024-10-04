@@ -22,7 +22,7 @@ spec:
         app: vote-api
     spec:
       containers:
-      - image: quay.io/bluesman/vote-api:latest
+      - image: image-registry.openshift-image-registry.svc:5000/vote-ci/vote-api:latest
         imagePullPolicy: Always
         name: vote-api
         ports:
