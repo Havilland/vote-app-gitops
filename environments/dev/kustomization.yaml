@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - ../../k8s/
 images:
-- digest: sha256:9ec66870bd2a44b26ff09a05c13ec72422b9dfe6ee77cae10193492fe9bcaf50
+- digest: sha256:30a46c85d7ce60a0f6caf8f291f6482e2691ce10a4e560e7e54c2b459d24636c
   name: image-registry.openshift-image-registry.svc:5000/vote-ci/vote-api
   newName: image-registry.openshift-image-registry.svc:5000/vote-ci/vote-api
 - digest: sha256:238409ff9c72d7b120fc48cfad1703c490d181b7276b4661fcf72b76ce9581b6
