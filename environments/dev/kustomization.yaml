@@ -6,6 +6,6 @@ images:
 - digest: sha256:9ec66870bd2a44b26ff09a05c13ec72422b9dfe6ee77cae10193492fe9bcaf50
   name: image-registry.openshift-image-registry.svc:5000/vote-ci/vote-api
   newName: image-registry.openshift-image-registry.svc:5000/vote-ci/vote-api
-- digest: sha256:c08fcb55dd142ecd65c93c7bf963dcac5f7452ec54bca6d797a0fad185800524
+- digest: sha256:238409ff9c72d7b120fc48cfad1703c490d181b7276b4661fcf72b76ce9581b6
   name: image-registry.openshift-image-registry.svc:5000/vote-ci/vote-ui
   newName: image-registry.openshift-image-registry.svc:5000/vote-ci/vote-ui
